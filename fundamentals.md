@@ -43,7 +43,8 @@ JavaScript takes 2 passes over your code:
 
 
 **2nd pass:** 
-* applies values to the references that were found, thus actually running the code.
+* applies values to the references that were found, thus actually running the code. 
+<br />
 
 **Function declarations can be invoked before they are defined!**
 ```
@@ -99,8 +100,9 @@ const add = (a,b) => {
 console.log(add(2,4)) // 6 
 ```
 
-* function keyword removed
-*  => token added behind the parameters.
+* `function` keyword removed
+* ` =>` token added behind the parameters.
+<br /><br />
 
 ```
 // streamlined arrow syntax
@@ -109,8 +111,8 @@ const add = (a,b) => a + b;
 console.log(add(2,4)) // 6 
 ```
 
-* no longer are required to use the return keyword - because it’s implied!
-* do not need our {} because they, too, are redundant in the rules of arrow functions.
+* no longer are required to use the `return` keyword - because it’s implied!
+* do not need our `{}` because they, too, are redundant in the rules of arrow functions.
 * great to use with array methods but not for everything 
  <br />
  <hr />
